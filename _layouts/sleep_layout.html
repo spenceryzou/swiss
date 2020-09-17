@@ -1,0 +1,338 @@
+---
+layout: default
+---
+<div>
+  <img style="max-width: 100%" src="/uploads/sleep_banner.png" alt="">
+</div>
+
+<a id="toggle" href="javascript:showhide('menu')" class="section-nav w-button w--current" style="color: black; font-weight: bold; position: fixed; top: 5em; text-align: right; width: auto; display: none;">SHOW / HIDE</a>
+
+<div id="menu" style="opacity: 1; display: none;" class="section-nav w-clearfix">
+  <a href="#intro" class="section-links intro w-button w--current" style="color: rgb(179, 180, 186);">Background &amp; Context</a>
+  <a href="#problem" class="section-links intro w-button w--current" style="color: rgb(179, 180, 186);">The Problem</a>
+  <a href="#solution" class="section-links solution w-button" style="color: rgb(179, 180, 186);">Proposed Solution</a>
+  <a href="#research" class="section-links research w-button" style="color: rgb(179, 180, 186);">Observations &amp; Research</a>
+  <a href="#goals" class="section-links goals w-button" style="color: rgb(179, 180, 186);">The Goals</a>
+  <a href="#decisions" class="section-links goals w-button" style="color: rgb(179, 180, 186);">Design Decisions</a><a href="#process" class="section-links design w-button" style="color: rgb(179, 180, 186);">Process &amp; Style</a>
+  <a href="#results" class="section-links results w-button" style="color: rgb(179, 180, 186);">Results &amp; Reflection</a>
+  <a href="#future" class="section-links future w-button" style="color: rgb(179, 180, 186);">Future Directions</a>
+</div>
+
+<article class="container mx-auto px-2 mt2 mb4">
+  
+  
+  <div class="prose mb-2 py-2">
+  <h1 id="intro">Sleep Tight Mobile App Prototyping</h1>
+<div style="display: grid;grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));width: 100%;grid-column-gap: 2em;grid-row-gap: 2em;">
+  <div>
+    <h6>Duration</h6><div>Dec 2019</div><div>1 week</div>
+  </div>
+  <div><h6>Tools</h6>Figma</div>
+  <div><h6>Key Skills</h6>UI/UX, Mobile App Prototyping, User Research</div>
+</div>
+    
+    <br>
+    <br>
+
+    <p>In the fall semester of my sophomore year at Yale, I had the pleasure of taking “The Mystery of Sleep”, a cognitive science course that covered the science behind sleep. The knowledge I gained about the importance of sleep made a huge impact on me—studying the research on the detrimental effects of sleep deprivation as well as the benefits of a consistent sleep pattern helped push me to seek ways to improve my own sleep.</p>
+
+    <h5 style="margin-left: -10em;margin-top: 2em;" id="problem">The Problem</h5>
+    <h3 style="text-align: center;margin-top: -1.5em;">
+      How can people not only achieve better sleep, but also develop better sleep habits that will improve their overall sleep quality in the long run?
+    </h3>
+  </div>
+</article>
+
+<div id="solution" style="color: white; background-color: #001253;background-image: url(uploads/sleep_overlay.png), linear-gradient(rgba(0, 18, 83, 1), rgba(0, 56, 255, 1));
+    background-size: cover;">
+  <article class="container mx-auto px-2 mt2 mb2">
+    <div class="prose mb-2 py-4">
+
+      <h5 style="color:white; margin-left: -10em;">The Solution</h5>
+      <h3 style="margin-top: -1.5em;">Design a mobile app that reduces chronic sleep deprivation and creates real behavioral change for people.</h3>
+      <a href="#decisions" style="text-decoration-color: white;"><h6 style="color:white;text-align: center;">Jump to final design decisions ↓</h6></a>
+    </div>
+  </article>
+</div>
+
+<article id="research" class="container mx-auto px-2 mt2 mb4">
+  <div class="prose mb-2 py-4">
+
+    <div style="margin-left: -10em;">
+              <h5>Observations</h5>
+              <h5>+ Research</h5>
+      </div>
+
+    <p style="
+        margin-top: -4em;
+    ">Sleep is often not prioritized, especially in a college environment, but taking this course has proven to me that this is definitely not the right attitude that people should hold. Through <strong>user interviews</strong> and <strong>secondary research</strong>, I saw the need for an easy way for people to consistently achieve better sleep.</p>
+
+    <h2>All interviewees were unsatisfied with their sleep.</h2>
+
+    <p>I interviewed 5 people–4 were my classmates, and 1 was my older sister who had been facing severe sleep problems in her working life. I wanted to target people who were students, as this group tends to have busy schedules and poorer sleeping habits, or people who generally had issues with their sleep. I noticed a few common findings among them:</p>
+
+
+
+    <p><img src="/uploads/sleep_user_1.png" alt=""></p>
+
+    <h2>All interviewees knew of good sleep habits but did not always actualize them.</h2>
+
+    <p>All users had knowledge of good sleep habits as well as the detriments of sleep deprivation, yet they did not always actualize them and were still unsatisfied with their current sleep. This begs the question of how to create a product that can push people to actually put these habits into practice.</p>
+    <br>
+
+    <h2>Interviewees want more motivation and tools to achieve better sleep.</h2>
+        <p>Their thoughts on their ideal sleep app revealed the need for a simple, unobtrusive way to be more motivated 
+          to achieve better sleep as well as the need for tools to help people fall asleep more easily.</p>
+        <img src="/uploads/sleep_user_2.png" alt="">
+        
+        <h2 id="secondary-research">Secondary research reveals that few apps have features that support long-term changes.</h2>
+        <p>A 2017 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5350571/">study</a> led by Diana S. Grigsby-Toussaint, 
+          a kinesiology and community health professor from the University of Illinois, on the 35 most popular sleep apps confirms 
+          the sentiment that there is still room for improvement for sleep apps. Although the study found that the majority of apps 
+          were well-designed and allowed its users to set goals and track their sleep, <strong>very few apps had features that supported 
+          long-term behavioral changes</strong>. Out of all 35 apps, only:</p>
+        <div class="py-2" style="display: grid;grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));width: 100%;grid-column-gap: 2em;grid-row-gap: 2em;">
+          <p>4 apps provided information about the benefits of sleep</p>
+          <p>4 apps provided information about sleep deprivation risks</p>
+          <p>6 apps offered reminder messages for sleep</p>
+          <p>1 app gave positive reinforcement for reaching a sleep goal</p>
+        </div>
+        <p>Integrating these features into a sleep app will help people develop better, more sustainable sleep hygiene that will improve 
+          their overall quality of life.</p>
+  </div>
+</article>
+
+
+ 
+
+
+<div id="goals" style="color: white; background-color: #001253; background-image: url(uploads/sleep_overlay.png), linear-gradient(rgba(0, 18, 83, 1), rgba(0, 56, 255, 1));
+    background-size: cover;" class="py-4 mb-4">
+  <article class="container mx-auto px-2 mt2 mb4">
+    <h5 style="color:white; margin-left: -10em;">Goals</h5>
+    <div style="margin-top: -2em;display: grid;grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));width: 100%;grid-column-gap: 2em;grid-row-gap: 2em;">
+      <p>Provide unobtrusive features to remind users of proper sleep habits</p>
+      <p>Encourage users to develop a long-term sleeping routine</p>
+      <p>Allow users to tailor reminder and alarm settings according to personal sleep patterns</p>
+      <p>Educate users on proper sleep hygiene</p>
+    </div>
+  </article>
+</div>
+
+<article class="container mx-auto px-2 mt2 mb4" id="decisions">
+  <div class="prose mb-2 py-4">
+  <div style="margin-left: -10em;">
+    <h5>Decision 1</h5>
+    </div>
+    <h2 style="margin-top: -1.2em;">Simulated sunrise alarm and soothing music as you go to sleep</h2>
+
+    <div class="mb-2" style="display: flex;flex-wrap: wrap;">
+      <p style="max-width: 16em;">Circadian rhythm is a key process that determines your sleep and wakefulness. 
+      <strong>Light is mainly responsible for affecting the central clock in your body, 
+        so waking up to a simulated sunrise is less harsh and more natural than a strong alarm.</strong><br><br>
+
+      <strong>Since user interviews expressed a desire for this feature</strong>, I also incorporated the option to play soothing music once the user starts the sleep tracker/alarm 
+      to help people fall asleep more easily.</p>
+      <img src="/uploads/sleep_decision1.1.gif" alt="" style="max-width: 14em; margin-left: 1em; margin-right: 1em; margin-bottom: 1em;">
+      <img src="/uploads/sleep_decision1.2.gif" alt="" style="max-width: 14em; margin-left: 1em; margin-bottom: 1em;">
+    </div> 
+  
+  <p>Furthermore, the feature to stop the alarm through methods such as shaking your phone, flipping the phone orientation, or simply tapping a button is offered. <strong>Giving alternative and active ways to stop an alarm can encourage users to wake up more alert.</strong></p>
+ </div>
+</article><article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">
+
+  <div style="margin-left: -10em;">
+          <h5>Decision 2</h5>
+  </div>
+
+  <h2 style="margin-top: -1.2em;">Daily/weekly/monthly reports on your sleep trends</h2>
+  <div class="mb-4" style="display: flex; flex-wrap: wrap;">
+    <p style="max-width: 16em;">Keeping a sleep log is a good way to see where the user can make improvements in their life to improve sleep. 
+    <strong>Users who are especially concerned with their sleep quality will appreciate having a regular log of their sleep activity.</strong>
+    Highlights of average sleep time, sleep quality and sleep regularity per week or month are placed at the very 
+    top of the trend report page for a quick and easy summary of this key information.</p>
+    <img src="/uploads/sleep_decision2.1.gif" alt="" style="max-width: 14em; margin-left: 1em; margin-right: 1em; margin-bottom: 1em;">
+    <img src="/uploads/sleep_decision2.2.gif" alt="" style="max-width: 14em; margin-left: 1em; margin-bottom: 1em;">
+  </div>
+
+</div></article><article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">
+
+  <div style="margin-left: -10em;">
+      <h5>Decision 3</h5>
+  </div><h2 style="margin-top: -1.2em;">Reminder messages as well as information on your sleep progress and sleep debt</h2>
+
+  <div class="mb-4" style="display: flex; flex-wrap: wrap;">
+    <img alt="" src="/uploads/sleep_4.png" style="max-width: 14em; margin-bottom: 1em; margin-right: 1em; margin-left: 1em;">
+    <p style="max-width: 30em; margin-left: 1em;">
+      <strong>To fulfill the user-research-found desire for unobtrusive methods of how to achieve better sleep,</strong> 
+      push notifications will be offered to help users be reminded of not only their bedtime but also 
+      when they should start preparing for sleep. This will help people fall asleep easier and faster.
+      <br><br>
+      In addition, receiving notifications on how much regular sleep or sleep debt the user has gotten over a certain period of 
+      time will help motivate people to either continue their current behavior or improve it.
+      <br><br>
+      Praise for consistent good sleep habits is encouraging. An instance of the incorporation of praise is upon opening the 
+      app—the starting page will have a banner at the top of the screen praising the user for achieving regular sleep for however many days.
+    </p>
+  </div>
+
+</div></article><article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">
+
+<div style="margin-left: -10em;">
+        <h5>Decision 4</h5>
+</div>
+    <h2 style="margin-top: -1.2em;">Provide information about the benefits of sleep, the risks of sleep deprivation, and how to achieve better sleep</h2>
+
+   <div class="mb-4" style="display: flex; flex-wrap: wrap;">
+      <p style="max-width: 30em; margin-right: 1em;">
+        <strong>From my personal experience of taking my course on sleep as well as feedback from user interviews</strong>, 
+        more awareness of the benefits of sleep and the consequences of no sleep encourages users to create better sleep habits 
+        and sleep hygiene for themselves. 
+        Having this information available and sprinkled throughout the app will serve as a constant reminder of why users 
+        need high-quality sleep.</p>
+        <img alt="" src="/uploads/sleep_decision4.gif" style="max-width: 14em; margin-bottom: 1em; margin-right: 1em; margin-left: 1em;">
+    </div>
+
+</div></article><article id="process" class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4"> 
+
+<div style="margin-left: -10em;">     
+<h5>Process +</h5><h5>Style</h5></div>   
+    <h2 style="margin-top: -2.2em;">Sketches + Lo-fi Wireframes</h2></div></article><div style="text-align: center;">
+<p><img style="max-width: 90%" src="/uploads/sleep_sketches_lofi.png" alt=""></p><br><br>
+</div><div>
+    <p><img style="max-width: 100%;" src="/uploads/sleep_1.png" alt=""></p>
+</div><article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">
+
+<h2 id="user-flow">User Flow</h2>
+
+<p><img src="/uploads/sleep%20tight_main%20flow%20diagram.png" alt=""></p>
+
+</div></article><div>
+    <p><img src="/uploads/sleep_6.png" alt="" style="max-width: 100%;"></p>
+</div><article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">
+
+<h2 id="final-prototype">Final Prototype</h2>
+    <div class="container iframe-container">
+      <iframe style="border: none;" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FknADZN3UicwqPZDE9NJz3N%2FSleep-Tight%3Fnode-id%3D4%253A0%26scaling%3Dscale-down" allowfullscreen=""></iframe><br>
+    </div>
+      
+    
+    
+  
+    
+    
+
+
+    
+    
+  </div>
+
+    
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">
+
+
+    
+      <br>
+    
+    <br>
+  <div id="results" style="margin-left: -10em;">
+        <h5>Results</h5>
+</div>
+    <h2 style="
+    margin-top: -1.3em;
+"> 
+    Talking to users and analyzing the competitive landscape revealed a gap that I could fulfill.</h2>
+    <p>
+      While I was originally inspired by what I learned from class to make a product to help people
+      achieve better sleep, the user interviews and secondary research that I conducted were essential
+      to discovering an opportunity to fulfill a need that wasn't being properly met. Surprisingly 
+      very few sleep apps available now have features that would help people develop better long-term 
+      sleep habits and hygiene. Seeing the gap in this market gave me the chance to prototype an app
+      that could provide this feature.
+    </p>
+<br><br>
+
+    <div id="future" style="margin-left: -10em;">
+        <h5>Future</h5>
+    <h5>Directions</h5>
+</div>
+    <p style="
+    margin-top: -4em;
+">
+      <strong>More user testing feedback on the prototype should be gathered.</strong> I would like to see how well people adhere to
+      the reminders, how they use the data on their sleep trends, and whether they find the provided information
+      on sleep to be useful. How can I encourage users to take action and change their behaviors and attitudes towards
+      sleep beyond providing them information about their own sleep and using push notifications as reminders?
+      With the current main method of using push notifications as reminders, how could I make them more effective 
+      so that people will not ignore them? Conducting research on successful 
+      habit-tracking mobile apps would be a helpful source of inspiration.
+      <br><br>
+      <strong>Although the main function of this app is not providing information about how to attain better sleep, I would also
+        redesign the way that these facts are presented.</strong> Using more infographics, illustrations, or varying type styling
+      is a more effective way of presenting this information. My time constraints limited me to simply placing the information
+      in paragraphs or lists.
+      <br><br>
+      <strong>Additionally, more user interviews or research on people with good, consistent sleep habits and hygiene
+        should be conducted.</strong> Learning about their methods and techiniques to achieving high-quality sleep would be a great
+      source of information.
+      <br><br>
+    </p>
+  </div>
+<div style="margin-left: -10em;">
+        <h5>Let's Go</h5>
+    
+</div>
+    <div style="margin-top: -1.8em;">
+  Back to <a href="/#portfolio">all of my work</a>, or check out:
+    <br>
+    <div style="
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        width: 100%;
+        grid-column-gap: 2em;
+    ">
+      <h3><a href="/aws2020">Amazon</a></h3>
+      <h3><a href="/hivedesk">HiveDesk</a></h3>
+      <h3><a href="/adobenick">Adobe/Nick</a></h3>
+      <h3><a href="/xing">X.ing</a></h3>
+      <h3><a href="/nova">Nova</a></h3>
+    </div>
+  </div>
+</article>

@@ -16,13 +16,20 @@ code {
 }
 
 
+.subheader {
+    p {
+        font-size: 20px;
+    }
+}
+
 .prose {
 
   a {
-    text-decoration: underline dotted;
+    text-decoration: underline;
+    text-decoration-color: black;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
@@ -32,9 +39,13 @@ code {
     width: 100%;
 
     @media (min-width: $breakpoint-lg) {
-      width: (10 / 12 * 100%); // matches col-10
+      // width: (10 / 12 * 100%); // matches col-10
     }
 
+  }
+    
+  strong {
+      font-family: 'univers_55roman';
   }
 
   ul, ol {
@@ -52,12 +63,16 @@ code {
   img {
 
     max-width: 100%;
+    align-self: center;
 
     @media (min-width: $breakpoint-lg) {
-      max-width: (12 / 10 * 100%); // make image fill width of container on desktop
+      //max-width: (12 / 10 * 100%); // make image fill width of container on desktop
+        max-width: 100%;
+        align-self: center; 
     }
 
   }
+
 
   blockquote {
     line-height: 1.375;
@@ -72,11 +87,11 @@ code {
 
     @media (min-width: $breakpoint-lg) {
       padding-left: $spacer-3;
-      margin: $spacer-4 0 $spacer-4 -40px;
+      //margin: $spacer-4 0 $spacer-4 -40px;
       max-width: (11 / 10 * 100%);
 
       p {
-        font-size: 32px;
+        //font-size: 32px;
       }
 
     }

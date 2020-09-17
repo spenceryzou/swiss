@@ -4,66 +4,176 @@
   {% include head.html %}
 
   <body>
-
+    <a name="top"></a>
     <div>
-
-      <header class="header-background">
-
-        <div class="clearfix border-bottom-thick header-border">
-          <ul class="list-reset right py-1 header-text font-smoothing">
-            {% for my_page in site.pages %}
-              {% if my_page.title %}
-              <li class="inline-block">
-                <a class="align-middle link-primary header-link mr-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+      {% include header.html %}
+    </div>
+    
+     <div class="card container mx-auto px-2 mb-4 clearfix header-text">
+          
+      <div class="subheader mt-1 py-2" style="display: flex;align-items: center;flex-flow: wrap; justify-content:center;">
+      <div style="width: 30em; margin-bottom:3em;">
+        <h2 class="mt-4" style="font-family: 'univers_45_lightregular';">Hello! 👋🏻 I’m Brice, a CS / Art student at Yale and UX designer. Previously at Amazon and GlowTouch. Currently at <a href="https://here.fm">Here</a>.
+        </h2>
+     
+        <div class="h6 lh-condensed font-smoothing mt-2 py-2" "="">
+           <a href="https://www.linkedin.com/in/bricebai/">LinkedIn</a>  /  brice.bai@yale.edu
         </div>
-
-        <div class="container mx-auto px-2 mb-2 clearfix header-text">
-          <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
-
-          <div class="clearfix mb-4 py-1">
-            <div class="col-4 sm-width-full left border-top-thin">
-              <div class="table">
-                <div class="inline-block mt-3 mr-1">
-                  {% include dot-accent.html %}
-                </div>
-                <div class="inline-block mt-3 mr-1">
-                  {% include dot-accent.html %}
-                </div>
-                <div class="inline-block mt-3">
-                  {% include github.html %}
-                </div>
-              </div>
-              <!-- Set site description in config.yml -->
-              <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
-            </div>
-
-            <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
-                <div class="inline-block mt-3 mr-1">
-                  {% include dot.html %}
-                </div>
-                <div class="inline-block mt-3">
-                  {% include {{ site.social_link | default: "twitter" }}.html %}
-                </div>
-            </div>
-          </div>
-
-        </div>
-      </header>
-
-      <div class="container mx-auto px-2 py-4">
-        {% for post in site.posts %}
-          {% include post_block.html %}
-        {% endfor %}
+       </div>
+       <img alt="selfportrait" style="width: 18em;filter: drop-shadow(10px 10px 10px silver);flex-shrink: 0;" src="/uploads/self_color.png"> 
       </div>
 
     </div>
+    
+                                                                                                                                           
+                                                                                                                                           
+                                                                                                                                           
+   <div id="portfolio" class="mx-auto mb-0 clearfix header-text" style="max-width: 80em;">
+   
+      
+      
+        <!--AWS -->
+        <div class="card grid">
+        <div class="one mt-3 mb-3">
+          <p style="margin-right: 5em;">
+            <a href="/aws2020"><img src="https://logos-download.com/wp-content/uploads/2016/12/Amazon_Web_Services_logo_AWS-700x305.png" alt="aws" style="max-width:300px;"></a>
+          </p>
+          <h5>12-Week Internship</h5><br>An internship with Amazon Web Services under AWS Support. Redesigned the entire web console of cloud optimization B2B SaaS Tool AWS Trusted Advisor aiming to address current needs and pain points for 90,000+ customers. 
+          <br>
+          <br>
+          <button onclick="window.location.href = 'https://bricebai.com/aws2020';" class="h6">Read more</button>
+          <br>
+          <br>
+          <small class="h6"><b class="boldbasier">Tools</b> &nbsp;&nbsp;&nbsp;Sketch, Invision<br><b class="boldbasier">Skills</b> &nbsp;&nbsp;&nbsp;UX, User Research, Prototyping, Usability Testing</small>
+        </div>
+        
+         <div class="two">
+           <a href="/aws2020"><img src="/uploads/aws_home_thumbnail.png" alt="aws" style="filter: drop-shadow(0px 1px 5px silver);"></a>
+        </div><br>
+      </div>
+                                                                                                                                   
+        <!--sleep tight -->
+         <div class="card grid" style="/* background-color: #001253; */">
+         <div class="one mt-4 mb-3">
+          <p style="margin-top: 0">
+            <a href="/sleeptight"><img src="/uploads/sleep_logo.png" alt="sleeptight_logo" style="max-width:300px;"></a>
+          </p>
+          <h5>1-Week Personal Project</h5><br>
+           <p>
+             A mobile app prototype focused on long-term sleep improvement.
+             Inspired by a cognitive science course I took called “The Mystery of Sleep”.
+           </p>
+          <br>
+          <br>
+          <button onclick="window.location.href = 'https://bricebai.com/sleeptight';" class="h6" "="">Read more</button>
+          <br>
+          <br>
+          <small class="h6" style="font-weight:400;"><b class="boldbasier">Tools</b> &nbsp;&nbsp;&nbsp;Figma<br><b class="boldbasier">Skills</b> &nbsp;&nbsp;&nbsp;UI/UX, Mobile App Design, User Research</small>
+        </div>
+        
+        <div class="two">
+           <a href="/sleeptight"><img src="/uploads/sleep_home_thumbnail.png" alt="sleeptight" style="filter: drop-shadow(1px 1px 5px silver);"></a>
+        </div><br>
+      </div>                                                                                                                           
+        
+       
+        <!--HiveDesk -->
+        <div class="card grid">
+        <div class="one mt-3 mb-3">
+          <p style="margin-top: 0">
+            <a href="/hivedesk"><img src="/uploads/hd_logo.png" alt="hivedesk" style="max-width:300px;"></a>
+          </p>
+          <h5>10-Week Internship (Part-Time)</h5><br>
+          An internship with GlowTouch. Redesigned the homepage of SaaS product HiveDesk, aiming to direct user flow and increase CTR from homepage to free trial download page.
+          <br>
+          <br>
+          <button onclick="window.location.href = 'https://bricebai.com/hivedesk';" class="h6">Read more</button>
+          <br>
+          <br>
+          <small class="h6"><b class="boldbasier">Tools</b> &nbsp;&nbsp;&nbsp;Figma<br><b class="boldbasier">Skills</b> &nbsp;&nbsp;&nbsp;UI/UX, Conversion Optimization</small>
+        </div>
+        
+         <div class="two">
+           <a href="/hivedesk"><img src="/uploads/hivedesk_home_thumbnail.png" alt="hivedesk" style="filter: drop-shadow(0px 1px 5px silver);"></a>
+        </div><br>
+      </div>                                                                                                                                             
+                                                                                                                   
+         
+      <!--Adobe -->
+       <div class="card grid">
+        <div class="one mt-3 mb-3">
+          <p style="margin-right: 5em;">
+             <a href="/adobenick"><img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F67610867%2F272875658649%2F2%2Foriginal.png?w=225&amp;auto=format%2Ccompress&amp;q=75&amp;sharp=10&amp;s=ec299a912f1853af0b34c01783d224f6" alt="hivedesk" style="max-width:300px;"></a>
+          </p>
+          <h5>2-Day Design Jam</h5><br>6th place team out of 145 teams for US-college-wide Adobe + Nickelodeon Creative Jam where <a href="http://rencewang.com">my partner</a> and I designed a tablet app for kids to learn about how to stay safe and connected in quarantine through the process of creating their own virtual garden.<br>
+          <br>
+          <button onclick="window.location.href = 'https://bricebai.com/adobenick';" class="h6">Read more</button>
+          <br>
+          <br>
+          <small class="h6"><b class="boldbasier">Tools</b> &nbsp;&nbsp;&nbsp;Adobe XD<br><b class="boldbasier">Skills</b> &nbsp;&nbsp;&nbsp;UI/UX, Tablet App Design, Rapid Prototyping</small>
+        </div>
+        
+         <div class="two">
+            <a href="/adobenick"><img src="/uploads/adobe_home_thumbnail.png" alt="adobe" style="filter: drop-shadow(0px 1px 5px silver);"></a>
+        </div><br>
+      </div>                                                                                                                                              
+                                                                                                                                               
+                                                                                                                                               
+      <!--X.ing -->
+      <div class="card grid" style="/* background-color: #B5ABF4; */">
+         <div class="one mt-3 mb-3">
+          <p style="margin-top: 0">
+            <a href="/xing"><img src="/uploads/xing_logo.png" alt="xing" style="max-width:300px;"></a>
+          </p>
+          <h5>6-Month Personal Project</h5><br>
+          A skincare venture originally designed as a 3-step product line that pivoted into a social platform dedicated to help users navigate the confusing skincare landscape while creating connections among skincare enthusiasts.
+          <br>
+          <br>
+          <button onclick="window.location.href = 'https://bricebai.com/xing';" class="h6">Read more</button>
+          <br>
+          <br>
+          <small class="h6" style="font-weight:400;"><b class="boldbasier">Tools</b> &nbsp;&nbsp;&nbsp;Figma<br><b class="boldbasier">Skills</b> &nbsp;&nbsp;&nbsp;Project Management, Skincare Product Development, UI/UX, Mobile App Design, User Research</small>
+        </div>
+        
+        <div class="two">
+           <a href="/xing"><img src="/uploads/xing_home_thumbnail.png" alt="xing" style="filter: drop-shadow(1px 1px 5px silver);"></a>
+        </div><br>
+      </div>
+       
+                                                                                                                                  
+      
+      
+      <!--Nova -->
+      <div class="card grid" style="/* background-color: #B3C890; */">
+         <div class="one mt-3 mb-3">
+          <p style="margin-top: 0">
+            <a href="/nova"><img src="/uploads/nova_logo.png" alt="nova" style="max-width:15em;"></a>
+          </p>
+          <h5>4.5-Year Personal Project</h5><br>
+          A free, fantasy visual novel indie game. Made with an international online team that I led and found off a DeviantArt forum.
+          <br>
+          <br>
+          <button onclick="window.location.href = 'https://bricebai.com/nova';" class="h6">Read more</button>
+          <br>
+          <br>
+           <small class="h6" style="font-weight:400;"><b class="boldbasier">Roles</b> &nbsp;&nbsp;&nbsp;Founder, Project Manager, Writer<br><b class="boldbasier">Skills</b> &nbsp;&nbsp;&nbsp;Project Management,  Game Design, Creative Writing, Cross-functional Teamwork</small>
+        </div>
+        
+        <div class="two">
+           <a href="/nova"><img src="/uploads/nova_home_thumbnail.png" alt="nova" style="filter: drop-shadow(1px 1px 5px silver);"></a>
+        </div><br>
+      </div>
+                                                                                                                                  
+           
+                                                                                                                                  
+      <!--ETC -->
+      <h6 style="text-align: center;margin-bottom: 2em;">Interested in more work + art?</h6>
+      <h3 style="text-align: center;"><a href="/etc">Et cetera</a></h3>
+    </div>
+    
 
+    
     {% include footer.html %}
-
-  </body>
-
+  </body> 
+                                                                                                        
 </html>

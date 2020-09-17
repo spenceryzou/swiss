@@ -1,0 +1,399 @@
+---
+layout: default
+---
+<div>
+  <img style="max-width: 100%" src="/uploads/xing_banner.png" alt="">
+</div>
+
+<a id="toggle" href="javascript:showhide('menu')" class="section-nav w-button w--current" style="color: black; font-weight: bold; position: fixed; top: 5em; text-align: right; width: auto; display: none;">SHOW / HIDE</a>
+
+<div id="menu" style="opacity: 1; display: none;" class="section-nav w-clearfix">
+  <a href="#intro" class="section-links intro w-button w--current" style="color: rgb(179, 180, 186);">Background &amp; Context</a>
+  <a href="#problem" class="section-links intro w-button w--current" style="color: rgb(179, 180, 186);">The Problem</a>
+  <a href="#solution" class="section-links solution w-button" style="color: rgb(179, 180, 186);">Proposed Solution</a>
+  <a href="#research" class="section-links research w-button" style="color: rgb(179, 180, 186);">Observations &amp; Research</a>
+  <a href="#v1" class="section-links v1 w-button" style="color: rgb(179, 180, 186);">Version 1: Physical Product</a>
+  <a href="#pivot" class="section-links pivot w-button" style="color: rgb(179, 180, 186);">Pivot</a>
+  <a href="#v2" class="section-links v2 w-button" style="color: rgb(179, 180, 186);">Version 2: Mobile App</a>
+  <a href="#goals" class="section-links goals w-button" style="color: rgb(179, 180, 186);">The Goals</a>
+  <a href="#decisions" class="section-links design w-button" style="color: rgb(179, 180, 186);">Design Decisions</a>
+  <a href="#results" class="section-links results w-button" style="color: rgb(179, 180, 186);">Results &amp; Reflection</a>
+  <a href="#future" class="section-links future w-button" style="color: rgb(179, 180, 186);">Future Directions</a>
+</div>
+
+<article class="container mx-auto px-2 mt2 mb4">
+  
+  
+  <div class="prose mb-4 py-2">
+    <h1 id="intro">X.ing Product Development and App Prototyping</h1>
+    <div style="display: grid;grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));width: 100%;grid-column-gap: 0em;grid-row-gap: 2em;">
+      <div><h6>Duration</h6>Dec 2018 – <br><div>May 2019</div></div>
+
+      <div><h6>Tools</h6>Figma</div>
+
+      <div><h6>Key Skills</h6>Project Management, Product Development, UI/UX, Mobile App Design, User Research</div> 
+
+
+      <div><h6>The Team</h6>Gauri Jaswal, <br><div>Xiaoke Luo</div></div>
+
+      <div><h6>My Role</h6>Project Manager, UI/UX Designer</div>
+    </div>
+
+<br><p>Skin. It’s the largest organ of the human body, and can be the biggest source of frustration for anyone who has been a teenager and even beyond. From walking into the confusing skincare aisles of a CVS to seeing endless online advice for using over 10+ products at once, my entire team has experienced the same frustrations over finding what works best for us.</p><p>
+    Our team all met via Yale Launch, a student entrepreneurship club dedicated to helping students 
+  create ventures and startups. All of us loved skincare and wanted to tackle a problem in this realm. </p>
+    
+    <h5 style="margin-left: -10em; margin-top: 2em;" id="problem">The Problem</h5>
+    <h3 style="text-align:center; margin-top: -1.5em;">How can we make it easier for people to explore skincare and find the products that work best for them?</h3></div></article>
+
+    <div id="solution" style="background-color: #B5ABF4; 
+                              background-image: url(uploads/xing_overlay.png), linear-gradient(rgba(145, 129, 240, 1), rgba(97, 157, 239, 1));
+                              background-size: cover;">
+      <article class="container mx-auto px-2 mt2 mb4">
+      <div class="prose mb-4 py-4">
+<h5 style="margin-left: -10em;">The Solution</h5>
+
+<h3 style="margin-top: -1.8em;">For people frustrated with the current overcomplicated skincare landscape, create a product that makes
+  acquiring skincare knowledge more accessible, affordable, and attainable.</h3>
+        <a href="#decisions"><h6 style="text-align: center;">Jump to final design decisions ↓</h6></a>
+      </div></article>
+    </div>
+
+<article id="research" class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">
+<div style="margin-left: -10em;">
+        <h5>Observations</h5>
+        <h5>+ Research</h5>
+</div>
+
+<h2 style="margin-top:-2.2em;">The top reasons respondents lacked a routine were that it was too time-consuming, too confusing to approach, and too overwhelming.</h2><p>We released a user survey to gather data on the 30 respondents’ current skincare beliefs, 
+  which confirmed our observed pain points, led to discovering the different types of users, and guided our design decisions.</p>
+    <p><img src="/uploads/why%20do%20you%20not%20have%20a%20routine.png" alt=""></p><p>These complaints highlighted the target pain point my team found. Skincare, especially for beginners, seems like too much of a hassle to learn about.
+  There needs to be a solution that makes it simpler for people to learn about their skin and start their own routines.</p></div></article>
+
+
+
+
+  
+
+    
+    <article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">   
+
+<h2>Most respondents reported having a non-normal skin type, revealing that users with more problem-prone skin may be more interested in skincare.</h2>
+    <p><img src="/uploads/skin%20type.png" alt=""></p><p>With this in mind, I wanted to target helping users who have skin concerns fix their issues.</p>
+    
+  
+<h2>Our survey revealed three main types of users.</h2>
+  
+  <img alt="" src="/uploads/xing_personas.png"><p></p>
+    </div></article>
+  
+  
+<article class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4">   
+<p>For our first prototype, we wanted to create a skincare product, so we were interested in researching what product features users were most interested in. Separate data from users with skincare routines and users without skincare routines were collected. Market research on the skincare industry was also conducted. To see this data in more detail, please view these <a href="https://docs.google.com/presentation/d/1W7bO_xqISIxu9YS-pqIPl6KWAIStazTG8hfRTEYiSYE/edit?usp=sharing">appendix slides.</a></p>
+<br>
+ <div class="iframe-container" style="padding-top: 60.28%;">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRd7O2g6wxPRXap8kRRgHqTp8er_C63K1m2hmDG9rSdoMrw6FEzD5P1Tl-QeCRFJnzDlSxOL4Kz70Kp/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+<br><br>
+
+
+
+    </div></article>
+<div id="v1" style="background-color: #B5ABF4;
+                    background-image: url(uploads/xing_overlay.png), linear-gradient(180deg, rgba(145, 129, 240, 1), rgba(97, 157, 239, 1));
+                    background-size: cover;">
+      <article class="container mx-auto px-2 mt2 mb4">
+      <div class="prose mb-2 py-4">
+<div style="margin-left: -10em;">
+        <h5>Version 1:</h5>
+        <h5>Physical</h5>
+        <h5>Product</h5>
+</div>
+    
+<h3 style="margin-top:-4.2em;">A set of simple, scientifically-backed, and sustainable products at an economical price that is easy to integrate into users’ lives.</h3>
+      </div></article>
+    </div>
+
+<article class="container mx-auto px-2 mt2 mb2">
+  <div class="prose py-4">
+
+    <div style="display: flex;flex-wrap: wrap;">
+      <img src="/uploads/xing_proto1_1.jpg" alt="" style="max-width: 18em;margin-bottom: 1em;margin-right: 1em;">
+      <p style="max-width: 29em;">Using a series of four online recipes (<a href="https://www.humblebeeandme.com/lavender-cleansing-milk/">1</a>, <a href="https://www.humblebeeandme.com/gentle-chamomile-facial-cleanser/">2</a>, <a href="https://www.humblebeeandme.com/houdini-anti-acne-creme/">3</a>, <a href="https://www.humblebeeandme.com/lemon-rose-facial-lotion/">4</a><a href="">)</a> from blogger <a href="https://www.humblebeeandme.com/">Humblebee &amp; Me</a>, our team prototyped a batch of cleansers, toners, and moisturizers. We chose this blogger for her beginner-friendly and ingredients-focused recipes. Her website had extensive information on proper ingredient sourcing, preservation of products, recipe troubleshooting, and safety precautions, so we felt that she was a trusted source.</p>
+    </div>
+
+    <p>We formed a beta testing group of 12 from our original survey respondents. Half of the testers used our “normal” skin type set, while the other half used our “acne” skin type set. Within each group, half of the normal set used X.ing products alone while the other other incorporated X.ing products into their currently existing routine. The half that used the products alone either did not originally have a routine at all or were skincare beginners willing to try a complete new routine.</p>
+
+    <p>Overall positive feedback on our prototype was expressed.</p>
+          
+    <img src="/uploads/beta%20test_1.png" alt="" style="max-width: 100%;"><img src="/uploads/beta%20test_2.png" alt="" style="max-width: 100%;">
+  
+  </div>
+</article> 
+
+<div id="pivot" style="background-color: #B5ABF4;
+                       background-image: linear-gradient(45deg,rgba(145, 129, 240, 1), rgba(97, 157, 239, 1));
+                       background-size: cover;">
+      <article class="container mx-auto px-2 mt2 mb4">
+      <div class="prose mb-2 py-4">
+
+<div style="margin-left: -10em;">
+        <h5>Pivot</h5>
+        
+        
+</div><p style="
+    margin-top: -1.8em;
+">However, our team faced difficulty in further product development due to lack of mentorship and experience in cosmetic formulations.</p>
+
+<p>These limitations and further discussion with the beta testing group users led us to discover another pain point that users had—<strong>the frustrations from not having convenient, reliable sources of help in discovering products or improving their routines.</strong></p>
+          
+      </div></article>
+    </div>
+          
+<article class="container mx-auto px-2 mt2 mb4">
+  <div class="prose mb-2 py-4">
+    <p>Although the internet contains a plethora of reviews, advice, and suggestions for different products, 
+      our users expressed more trust and a preference for help from friends or family—ultimately, 
+      people with whom they had a personal connection with and could actually look at their skin and assist them. 
+      They wanted better access to specialized, personal attention on their skin.
+      Some had even expressed a better way to access dermatologists or other skincare professionals.</p>
+
+    <p><img src="/uploads/user%20feedback.png" alt=""></p>
+    <div style="display: flex;flex-wrap: wrap;">
+      <p style="max-width: 23em;">Further research from Mintel’s February 2018 insight report on The US Beauty Consumer affirmed our finding.</p>
+      <p style="max-width: 25em;"><img src="/uploads/mintel%202.png" alt=""></p>
+    </div>
+    <p>A pivot to a new idea that was more in line with our skillsets and would solve our problem.</p>
+          
+  </div>
+</article>
+
+<div id="v2" style="background-color: #B5ABF4;
+                    background-image: url(uploads/xing_overlay.png), linear-gradient(135deg, rgba(145, 129, 240, 1), rgba(97, 157, 239, 1));
+                    background-size: cover;">
+      <article class="container mx-auto px-2 mt2 mb4">
+      <div class="prose mb-2 py-4">
+
+<div style="margin-left: -10em;">
+        <h5>Version 2:</h5>  
+<h5>Mobile App</h5></div>
+
+<h3 style="
+    margin-top: -2.8em;
+">A digital social platform dedicated to helping users connect with other skincare enthusiasts and skincare professionals to formulate routines, diagnose issues, and generate closer connections with people who have a shared love of skincare.</h3>
+      </div></article>
+    </div>
+
+<article class="container mx-auto px-2 mt2 mb4">
+      <div class="prose mb-2 py-4">
+
+        <p>Although online communities dedicated to skincare exist like various subreddits (ex. <a href="https://www.reddit.com/r/SkincareAddiction/">/r/SkincareAddiction</a>) or forums like <a href="https://www.acne.org/forums/">acne.org</a>, there is no platform dedicated to more personalized help in discovering skincare products and formulating skincare routines.</p>
+
+        <p>Designed for people of all levels of skincare expertise, this platform provides a way for beginners to navigate the confusing skincare landscape while also giving more experienced skincare users the opportunity to develop more personal connections with fellow enthusiasts and provide guidance to those who need it. Users will also have the option to easily connect with dermatologists, estheticians, and other skincare professionals for an additional price.</p>
+          
+    </div>
+</article>
+
+<div id="goals" style="background-color: #C4C4C4;
+                       background-image: url(uploads/xing_overlay.png), linear-gradient(225deg, rgba(145, 129, 240, 1), rgba(97, 157, 239, 1));
+                       background-size: cover;" class="mb-4">
+  <article class="container mx-auto px-2 mt4 mb4">
+    <div class="prose mb-2 py-4">    
+      <div style="margin-left: -10em;">
+              <h5>Goals</h5>        
+      </div>
+
+      <div style="display: grid;grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));width: 100%;grid-column-gap: 2em;grid-row-gap: 2em;">
+        <p>Offer an accessible, welcome community of support to people who have skin troubles</p>
+        <p>Give people who are already passionate about skincare a chance to share their wisdom and help those who need it</p>
+        <p>Make it faster, more affordable, and more accessible than seeing a dermatologist in person</p>
+        <p>Give skincare professionals another avenue of exposure and a way to develop more digital connections with patients</p>
+      </div>
+    </div>
+  </article>
+</div>
+
+<article class="container mx-auto px-2 mt2 mb4" id="decisions">
+<div class="prose mb-2 pb-4"> 
+
+
+<div style="margin-left: -10em;">
+        <h5>Decision 1</h5>
+        
+        
+</div><h2 style="margin-top: -1.2em;">A mobile app platform</h2><p><strong>Since users expressed a desire for simplicity in regards to learning about skincare,
+  a mobile app was chosen for its ease of direct messaging users and sending images</strong>. 
+  Providing images of your own skin or products is a specific and significant supplement beyond 
+  pure description to diagnosing and treating skin issues. A mobile app platform makes this experience 
+  easier than a website.</p><img alt="" src="/uploads/xing_sketch_lofi.png"><img style="max-width: 100%;" alt="" src="/uploads/xing%201.png"><div style="margin-left: -10em;">
+        <h5>Decision 2</h5>
+        
+        
+</div>
+
+<h2 style="margin-top: -1.2em;">One-on-one messaging as the main form of communication</h2>
+    <div class="mb-4" style="display: flex; flex-wrap: wrap;">
+    <p style="max-width: 30em; margin-right: 1em;">Users can toggle between friends and skincare professionals to message. 
+  <strong>Because users expressed interested in forming connections with other people interested in skincare,
+    one-on-one messaging is the main method of communication in order to encourage more personal relationships 
+    between users</strong>–this is the main reason why a forum or public question submission feature is not included.</p>
+
+<img src="/uploads/xing_decision2.gif" alt="" style="max-width: 14em; margin-bottom: 1em; margin-right: 1em; margin-left: 1em;">
+    </div>
+
+<div style="margin-left: -10em;">
+        <h5>Decision 3</h5>
+        
+        
+</div><h2 style="margin-top: -1.2em;">Build a skincare network with users who will give you what you seek</h2>
+
+    <div class="mb-4" style="display: flex; flex-wrap: wrap;">
+<img src="/uploads/xing_decision3.gif" alt="" style="max-width: 14em; margin-bottom: 1em; margin-right: 1em; margin-left: 1em;"><p style="max-width: 30em; margin-left: 1em;">When finding users, you automatically are shown people who will give you what you seek, whether it be advice or someone to advise.<br><br>The option to filter by age, location, skin type, or knowledge level is available, as these are important factors to treating different skin conditions at certain ages or in certain climates. This is particularly helpful to users who have concerns that are based on these factors.</p>
+
+
+    </div>
+
+<div style="margin-left: -10em;">
+        <h5>Decision 4</h5>
+        
+        
+</div><h2 style="margin-top: -1.2em;">A profile that contains key information about your skin and routine</h2>
+
+    <div class="mb-4" style="display: flex; flex-wrap: wrap;">
+<p style="max-width: 30em;margin-right: 1em;">Your profile will contain the key information for others to learn about your skin and assist you. 
+  <strong>Users from the survey and beta testing were key to deciding what information to include.</strong>
+    They expressed particular interest in having a biography to showcase their personality and pique the interest of other users. 
+    Having the user’s skincare knowledge level also gives others an extra parameter in determining how much to trust the user’s opinion.<br><br>The other key feature here is <strong>having succinct FAQs and introductory guides</strong> to skin type, 
+  skin concerns, and routine formulation available as cards that overlay the screen. 
+  <strong>It creates a better learning experience, especially targeting beginner skincare users.</strong></p>
+
+
+<img src="/uploads/xing_decision4.gif" alt="" style="max-width: 14em; margin-bottom: 1em; margin-right: 1em; margin-left: 1em;">
+    </div>
+
+<div style="margin-left: -10em;">
+        <h5>Decision 5</h5>
+        
+        
+</div><h2 style="margin-top: -1.2em;">A user-generated product library and sending product cards in messages</h2>
+
+
+    <div class="mb-4" style="display:flex; flex-wrap: wrap;"> 
+        <img src="/uploads/xing_decision5.1.gif" style="max-width: 14em; margin-bottom: 1em; margin-right: 1em; margin-left: 1em;">
+<p style="max-width: 30em; margin-left: 1em;">Inspired by the MyFitnessPal user-generated food library, <strong>X.ing implements a user-generated skincare product library</strong> 
+  instead. This allows for easy adding of your own products and the ability to discover new products with real feedback.
+  <strong>One common complaint from users in the survey and beta testing was the hassle of looking up ingredients and organizing
+    the product's information. The user-generated product library reduces this trouble.</strong></p>    
+    </div>
+
+    <div class="mb-4" style="display:flex; flex-wrap: wrap;">
+<p style="max-width: 30em; margin-right: 1em;">Another key chat feature is the ability to send product cards from your routine or the product library in direct messages. <strong>This eliminates the extra time and effort spent in looking up products online, allowing users to easily view product information without leaving the platform.</strong></p>
+
+<img src="/uploads/xing_decision5.2.gif" style="max-width: 14em; margin-bottom: 1em; margin-right: 1em; margin-left: 1em;">
+    </div></div></article><article id="design" class="container mx-auto px-2 mt2 mb4">
+<div class="prose mb-4 pb-4"> 
+
+  <h2 id="main-user-flow">Main User Flow</h2>
+
+<p>This is the main flow for a non-professional user. 
+  For a professional user, instead of viewing friends and professionals in their network, 
+  they would be viewing friends and patients.
+  <strong>Since user research was primarily conducted for the non-professional user, all design decisions will be focused on this user segment.
+    Future iterations of this product will concentrate on researching and designing for the professional user.</strong></p>
+
+
+<p><img src="/uploads/xing_main%20flow%20diagram.png" alt=""></p>
+  </div><img style="max-width: 100%" alt="" src="/uploads/xing%206.png"></article>
+
+
+
+<article class="container mx-auto px-2 mt2 mb4">
+  <div class="prose mb-4 pb-4"> 
+    <h2 id="onboarding-flow">Onboarding Flow</h2>
+ 
+    <div style="display: grid;grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));width: 100%;grid-column-gap: 1em;grid-row-gap: 2em;">
+      <p><strong>Specialize onboarding for the two main user types</strong>–hobbyists or professionals</p>
+      <p><strong>Start with the user’s “why”</strong>, focusing on their intent for using this app with questions on what exactly they are seeking</p>
+      <p><strong>Make helpful overlays available to beginners</strong> that simply explain how to diagnose their skin type/condition and how to begin or format a routine</p>
+      <p><strong>Include progress bar</strong> for the goal gradient effect to guide the user to the end of the funnel</p>
+      <p><strong>Verify professionals’ board/license certification</strong> to ensure that they are qualified to deliver professional advice</p>
+    </div>
+    <img src="/uploads/xing_onboarding%20flow%20diagram.png" alt="">
+  </div>
+</article>
+
+
+
+
+
+<div>
+<p><img style="max-width: 100%" alt="" src="/uploads/xing 7.png"></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<article class="container mx-auto px-2 mt2 mb4">
+  <div class="prose mb-4 pb-4">
+    <h2 id="final-prototype">Final Prototype</h2>
+    <div class="container iframe-container">
+      <iframe style="border: none;" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2F740E4HfxK12Hw5aBVIhiQz%2FX.ing%3Fnode-id%3D4%253A0%26scaling%3Dscale-down" allowfullscreen=""></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="results" style="margin-left: -10em;">
+          <h5>Results</h5>
+    </div>
+    <h2 style="margin-top: -1.3em;">Keeping the user at the center of our prototypes and pivots is key.</h2>
+    <p>
+      With our first prototype, our biggest limitations came from a lack of available mentorship and experience in cosmetic formulations. Although we were able to prototype and test two working sets of products, we had difficulties in moving beyond the first iteration. In addition, further discussion with users gave us new perspective on their pain points and goals towards building a routine. These new perspectives on how users desire to seek help and find products led us to pivot towards a new solution that was also more feasible with our current skillsets and resources.
+    </p> 
+    <br>
+    <div id="future" style="margin-left: -10em;">
+          <h5>Future</h5>
+      <h5>Directions</h5>
+    </div>
+    <p style="margin-top: -3.7em;">
+        Since our second prototype was a spinoff of our first and the only additional user research was collected from discussions with a limited number of people, more research on how users obtain their skincare information and preferences should be conducted, from both our personal peers as well as active users of online skincare communities.
+        <br><br>
+        Another point of consideration is researching more reasons for why more experienced skincare users would use this platform. Newbie skincare users benefit from gaining personal advice on how to start and maintain a routine, but more established users have different incentives towards participation in this type of social network. Interviews of experienced skincare users who are active contributors on online skincare communities should be conducted to discover their motivations towards being so active and willing to assist others.
+        <br><br>
+        Here are some remaining use cases and considerations that I would also like to flesh out:
+    </p>
+    <ul>
+        <li> <u>Professionals.</u> More research on professionals' incentives to use this kind of platform and how they envision themselves engaging with new or current patients/clients should be conducted. Would they only use it to communicate with patients, or would they also use it to find friends? Should there be an option for them to have a network of friends and patients or only have a network of patients alone?</li>
+        <li> <u>Group chat.</u> Currently, one-on-one messaging is the main form of communication, but having group chat support is another avenue of communication that still aligns with our value proposition. What kind of scenarios would group chat trump both one-on-one messaging or forum thread posts? This is a situation where the personal connection among users will matter more in order to form a group chat.</li>
+        <li> <u>Profile.</u> Are there any additional parameters to include in the profile to help users decide whether to trust another user and add them to their networks?</li>
+        <li> <u>User discovery.</u> What additional ways can users find friends and professionals to add to their network besides the current discovery method? Would the inclusion of a forum or public question submission area be beneficial in discovering new users, or would it reduce the amount of private messaging and interactions?</li>
+        <li> <u>Platform misuse.</u> How can we reduce the risk of users abusing the platform to promote their own business or social platforms?</li>
+    </ul>
+  
+  
+    <div style="margin-left: -10em;">
+          <h5>Let's Go</h5>
+    </div>
+    <div style="margin-top: -1.8em;">
+      Back to <a href="/#portfolio">all of my work</a>, or check out:
+      <br>
+      <div style="display: grid;grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));width: 100%;grid-column-gap: 2em;">
+        <h3><a href="/aws2020">Amazon</a></h3>
+        <h3><a href="/sleeptight">Sleep Tight</a></h3>
+        <h3><a href="/hivedesk">HiveDesk</a></h3>
+        <h3><a href="/adobenick">Adobe/Nick</a></h3>
+        <h3><a href="/nova">Nova</a></h3>
+      </div>
+    </div>
+    
+  </div> 
+</article>
