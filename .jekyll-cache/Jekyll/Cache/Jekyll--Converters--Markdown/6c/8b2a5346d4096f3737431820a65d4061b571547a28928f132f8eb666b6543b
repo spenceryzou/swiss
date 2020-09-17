@@ -1,0 +1,173 @@
+I"�1<h1 id="skincare-product-development-and-mobile-app-prototyping">Skincare Product Development and Mobile App Prototyping</h1>
+
+<p><strong>Duration</strong>    December 2018 – May 2019</p>
+
+<p><strong>Team</strong>    Gauri Jaswal, Xiaoke Luo</p>
+
+<p><strong>My Role</strong>    Team Leader, Project Manager, UI/UX Designer</p>
+
+<p><strong>Key Skills</strong>    Project Management, Skincare Product Development, UI/UX, Mobile App Prototyping, User Research</p>
+
+<p><img src="/uploads/xing thumbnail.png" alt="" /></p>
+
+<h2 id="the-problem">The Problem</h2>
+
+<p>Skin. It’s the largest organ of the human body, and can be the biggest source of frustration for anyone who has been a teenager and even beyond. From walking into the confusing skincare aisles of a CVS to seeing endless online advice for using over 10+ products at once, my entire team has experienced the same frustrations over finding what works best for us.</p>
+
+<p><strong>How can we make it easier for people to explore skincare and find the products that work best for them?</strong></p>
+
+<h2 id="the-solution">The Solution</h2>
+
+<p>Create a product that makes skincare more accessible, affordable, and attainable for people frustrated with the current overcomplicated skincare landscape.</p>
+
+<h2 id="the-team">The Team</h2>
+
+<p>Our team all met via Yale Launch, a student entrepreneurship club dedicated to helping students create ventures and startups. All of us loved skincare and wanted to tackle a problem in this realm. While we all did not have definitive roles and worked on much of the observations, research, and first product prototyping together, each of us had special backgrounds that contributed to our product in different ways.</p>
+
+<ul>
+  <li><strong>Brice (Me)</strong> - Project Manager and UI/UX Designer</li>
+  <li><strong>Gauri</strong> - Chemistry and finance background</li>
+  <li><strong>Xiaoke</strong> - Marketing and startup background</li>
+</ul>
+
+<h2 id="observations-and-research">Observations and Research</h2>
+
+<p>We released a user survey to gather data on the 30 respondents’ current skincare beliefs and pain points.</p>
+
+<h3 id="most-respondents-reported-having-a-non-normal-skin-type-revealing-how-users-with-more-problem-prone-skin-may-show-more-interest-in-skincare">Most respondents reported having a non-normal skin type, revealing how users with more problem-prone skin may show more interest in skincare.</h3>
+
+<p><img src="/uploads/skin type.png" alt="" /></p>
+
+<p>With this in mind, it guided my decisions on creating designs to help users who have skin concerns resolve their problems.</p>
+
+<h3 id="the-top-reasons-respondents-lacked-a-routine-were-that-it-was-too-time-consuming-too-confusing-to-approach-and-too-overwhelming">The top reasons respondents lacked a routine were that it was too time-consuming, too confusing to approach, and too overwhelming.</h3>
+
+<p>These complaints highlighted our target pain point.</p>
+
+<p><img src="/uploads/why do you not have a routine.png" alt="" /></p>
+
+<p>For our first prototype, we wanted to create a skincare product, so we were interested in researching what product features users were most interested in. Separate data from users with skincare routines and users without skincare routines were collected. Market research on the skincare was also conducted. To see this data in more detail, please view these <a href="https://docs.google.com/presentation/d/1W7bO_xqISIxu9YS-pqIPl6KWAIStazTG8hfRTEYiSYE/edit?usp=sharing">appendix slides.</a></p>
+
+<h2 id="features-and-prototyping">Features and Prototyping</h2>
+
+<h3 id="product-10">Product 1.0</h3>
+
+<p><strong>A set of simple, scientifically-backed, and sustainable products at an economical price that is easy to integrate into users’ everyday lives.</strong></p>
+
+<h4 id="product-10-prototyping">Product 1.0 Prototyping</h4>
+
+<p>Using a series of four online recipes (<a href="https://www.humblebeeandme.com/lavender-cleansing-milk/">1</a>, <a href="https://www.humblebeeandme.com/gentle-chamomile-facial-cleanser/">2</a>, <a href="https://www.humblebeeandme.com/houdini-anti-acne-creme/">3</a>, <a href="https://www.humblebeeandme.com/lemon-rose-facial-lotion/">4</a><a href="">)</a> from blogger <a href="https://www.humblebeeandme.com/">Humblebee &amp; Me</a>, our team prototyped a batch of cleansers, toners, and moisturizers. We chose this blogger for her beginner-friendly and ingredients-focused recipes. Her website had extensive information on proper ingredient sourcing, preservation of products, recipe troubleshooting, and safety precautions, so we felt that she was a trusted source.</p>
+
+<p>We formed a beta testing group of 12 from our original survey respondents. Half of the testers used our “normal” skin type set, while the other half used our “acne” skin type set. Within each group, half of the normal set used X.ing products alone while the other other incorporated X.ing products into their currently existing routine. The half that used the products alone either did not originally have a routine at all or were skincare beginners willing to try a complete new routine.</p>
+
+<p><img src="/uploads/xing_proto1_1.jpg" alt="" /></p>
+
+<p>Overall positive feedback on our prototype was expressed.</p>
+
+<p><img src="/uploads/beta test_1.png" alt="" /></p>
+
+<p><img src="/uploads/beta test_2.png" alt="" /></p>
+
+<p><strong>However, our team faced difficulty in further product development due to lack of mentorship and experience in cosmetic formulations.</strong></p>
+
+<p><strong>These limitations and further discussion with the beta testing group users led us to discover another pain point that users had</strong>—the frustrations from not having convenient, reliable sources of help in discovering products or improving their routines. Although the internet contains a plethora of reviews, advice, and suggestions for different products, our users expressed more trust and a preference for help from friends or family—ultimately, people with whom they had a personal connection with and could actually look at their skin and assist them. They wanted better access to specialized, personal attention on their skin.</p>
+
+<p><img src="/uploads/user feedback.png" alt="" /></p>
+
+<p>Further research from Mintel’s February 2018 insight report on The US Beauty Consumer affirmed our finding.</p>
+
+<p><img src="/uploads/mintel 2.png" alt="" /></p>
+
+<p>We decided to pivot to a new idea that would help tackle this problem.</p>
+
+<h3 id="pivot-to-product-20">Pivot to Product 2.0</h3>
+
+<p><strong>A digital social platform dedicated to helping users connect with other skincare enthusiasts and skincare professionals to formulate routines, diagnose issues, and generate closer connections with people who have a shared love of skincare.</strong></p>
+
+<p>Although online communities dedicated to skincare exist like various subreddits (ex. <a href="https://www.reddit.com/r/SkincareAddiction/">/r/SkincareAddiction</a>) or forums like <a href="https://www.acne.org/forums/">acne.org</a>, there is no platform dedicated to more personalized help in discovering skincare products and formulating skincare routines.</p>
+
+<p>Designed for people of all levels of skincare expertise, this platform provides a way for beginners to navigate the confusing skincare landscape while also giving more experienced skincare users the opportunity to develop more personal connections with fellow enthusiasts and provide guidance to those who need it. Users will also have the option to easily connect with dermatologists, estheticians, and other skincare professionals for an additional price.</p>
+
+<h3 id="goals">Goals</h3>
+
+<ul>
+  <li>Faster, more affordable, and more accessible than seeing a dermatologist in person</li>
+  <li>Offers an accessible, welcome community of support to people who have skin troubles</li>
+  <li>Gives people who are already passionate about skincare a chance to share their wisdom and help those who need it</li>
+  <li>Gives skincare professionals another avenue of exposure and a way to develop more digital connections with patients</li>
+</ul>
+
+<h3 id="product-20-prototyping">Product 2.0 Prototyping</h3>
+
+<p><strong>Tools:</strong> Figma</p>
+
+<h4 id="design-decision-1">Design Decision 1</h4>
+
+<p><strong>A mobile app was chosen for its ease of direct messaging users and sending images</strong>. Providing images of your own skin or products is a specific and significant supplement beyond pure description to diagnosing and treating skin issues. A mobile app platform makes this experience easier than a website.</p>
+
+<p><img src="/uploads/xing_sketches.png" alt="" /></p>
+
+<p><img src="/uploads/xing_lofi.png" alt="" /></p>
+
+<p><img src="/uploads/xing 1.png" alt="" /></p>
+
+<p><strong>Purple</strong> was chosen for “Friends” on the X.ing platform as it is both a social-sensory and gender-neutral color. <strong>Blue</strong> was chosen for “Professionals” in order to convey a sense of trust and capability.</p>
+
+<p>Montserrat was chosen as a clean sans-serif font that conveys simplicity and straightforwardness.</p>
+
+<h4 id="design-decision-2">Design Decision 2</h4>
+
+<p>Users can toggle between friends and skincare professionals to message. <strong>One-on-one messaging is the main method of communication in order to encourage more personal relationships between users</strong>–this is the main reason why a forum or public question submission feature is not included.</p>
+
+<p><img src="/uploads/2.png" alt="" /></p>
+
+<h4 id="design-decision-3">Design Decision 3</h4>
+
+<p><strong>When finding users, you automatically are shown people who will give you what you seek</strong>, whether it be advice or someone to advise. <strong>The option to filter by age, location, skin type, or knowledge level is available</strong>, as these are important factors to treating different skin conditions at certain ages or in certain climates.</p>
+
+<p><img src="/uploads/3.png" alt="" /></p>
+
+<h4 id="design-decision-4">Design Decision 4</h4>
+
+<p><strong>Your profile will contain the key information for others to learn about your skin and assist you.</strong> A biography gives users the opportunity to showcase their personality and pique the interest of other users. Having the user’s skincare knowledge level also gives others an extra parameter in determining how much to trust the user’s opinion.</p>
+
+<p>The other key feature here is <strong>having succinct FAQs and introductory guides</strong> to skin type, skin concerns, and routine formulation available as cards that overlay the screen. I<strong>t creates a better learning experience, especially targeting beginner skincare users.</strong></p>
+
+<p><img src="/uploads/4.png" alt="" /></p>
+
+<h4 id="design-decision-5">Design Decision 5</h4>
+
+<p>Inspired by the MyFitnessPal user-generated food library, <strong>X.ing implements a user-generated skincare product library</strong> instead. This allows for easy adding of your own products and the ability to discover new products with real feedback.</p>
+
+<p>Another key chat feature is the ability to send product cards from your routine or the product library in direct messages. <strong>This eliminates the extra time and effort spent in looking up products online, allowing users to easily view product information without leaving the platform.</strong></p>
+
+<p><img src="/uploads/5-1.png" alt="" /></p>
+
+<h4 id="main-user-flow">Main User Flow</h4>
+
+<p>This is the main flow for a non-professional user. For a professional user, instead of viewing friends and professionals in their network, they would be viewing friends and patients.</p>
+
+<p><img src="/uploads/xing_main flow diagram.png" alt="" /></p>
+
+<p><img src="/uploads/xing 6.png" alt="" /></p>
+
+<h4 id="onboarding-flow">Onboarding Flow</h4>
+
+<p>Onboarding was also taken into consideration.</p>
+
+<p>Some key onboarding goals and features:</p>
+
+<ul>
+  <li><strong>Start with the user’s “why”</strong>, focusing on their intent for using this app with questions on what exactly they are seeking</li>
+  <li><strong>Specialize onboarding for the two main user types</strong>–hobbyists or professionals</li>
+  <li><strong>Make helpful overlays available to beginners</strong> that simply explain how to diagnose their skin type or condition and how to begin or format a routine</li>
+  <li><strong>Include progress bar</strong> for goal gradient effect to guide the user to the end of the funnel</li>
+  <li><strong>Immediately verify professionals’ board/license certification</strong> to ensure that they are qualified to deliver professional advice</li>
+</ul>
+
+<p><img src="/uploads/xing_onboarding flow diagram.png" alt="" /></p>
+
+<p><img src="/uploads/7.png" alt="" /></p>
+
+<h4 id="final-prototype">Final Prototype</h4>
+:ET
