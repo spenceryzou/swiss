@@ -1,5 +1,4 @@
 /* Type utilities */
-
 .h0 {
   font-size: $h0-mobile;
   line-height: 1.0125;
@@ -23,7 +22,6 @@
 
 .bold { font-weight: bold; }
 .uppercase { text-transform: uppercase; }
-.boldbasier {font-family: 'basier_circle_monosemibold'; }
 
 .lh-condensed { line-height: 1.25; }
 
@@ -51,181 +49,7 @@
 .text-accent { color: $color-text-accent; } // used for date in post list and home link
 
 /* Layout utilities */
-.container { 
-  max-width: $container-width;
-}
-
-.iframe-container {
-  overflow: hidden;
-  padding-top: 100%;
-  position: relative;
-}
-
-.iframe-container iframe {
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.iframe-container-youtube {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-}
-
-@media (max-width: 812px) {
-  .iframe-container {
-    padding-top: 230%;
-  }
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
-  row-gap: 0px;
-  column-gap: 50px;
-}
-
-.one {
-  padding: 4em 2em;
-  margin-left: 2em;
-  width: 75%;
-}
-
-.two {
-  display: flex;
-  align-items: center;
-  padding: 1em;
-}
-.two img {
-  max-width: 100%;
-}
-
-.doublegrid {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-//The sidebar menu for case studies
-.section-nav{
-  position: fixed;
-  right: 0px;
-  top: 8.25em;
-  z-index: 1;
-  width: 180px;
-  margin-left: 40px;
-  background-color: hsla(0, 0%, 99.6%, 0.90);
-  color: rgba(51, 51, 51, 0.4);
-  font-size: 12px;
-  line-height: 100%;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-}
-
-.w-clearfix:before,
-.w-clearfix:after{
-  content: " ";
-  display: table;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
-}
-
-.section-links{
-  margin-left: -10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  float: right;
-  clear: left;
-  background-color: transparent;
-  color: #b3b4ba;
-  text-align: left;
-  letter-spacing: 0.2px;
-  text-transform: none;
-  transition: all 300ms ease;
-  &:hover {
-    color: black !important;
-    text-decoration: none !important;
-    transition: all 300ms ease;
-  }
-}
-
-.w-button{
-  display: inline-block;
-  padding: 9px 15px;
-  color: white;
-  border: 0;
-  line-height: inherit;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 0;
-}
-
-.logo img{
-  max-width: 2em;
-  filter: drop-shadow(2px 2px 1px white);
-  transition: all 300ms ease;
-  &:hover {
-    transform: scaleX(1.25) scaleY(1.25);
-    transition: all 300ms ease;
-  }
-}
-
-.gallery {
-  filter: drop-shadow(10px 10px 10px silver);
-  max-width: 100%;
-  transition: all 300ms ease;
-  &:hover {
-    transform: scaleX(1.05) scaleY(1.05);
-    transition: all 300ms ease;
-  }
-}
-
-/** https://codepen.io/gschier/pen/HCoqh */
-.lightbox {
-   /** Default lightbox to hidden */
-   display: none;
-
-   /** Position and style */
-   position: fixed;
-   z-index: 999;
-   width: 100%;
-   height: 100%;
-   text-align: center;
-   top: 0;
-   left: 0;
-   background: rgba(0,0,0,0.8);
-}
-
-.lightbox img {
-  /** Pad the lightbox image */
-  max-width: 100%;
-  max-height: 100%;
-  filter: none;
-  transform: none;
-  margin-right: 0em;
-  margin-bottom: 0em;
-
-  transition: none;
-  &:hover {
-     transform: none;
-     transition: none;
-  }
-}
-
-.lightbox:target {
-  /** Remove default browser outline */
-  outline: none;
-
-  /** Unhide lightbox **/
-  display: block;
-}
-
+.container { max-width: $container-width; }
 
 .col-1 { width: (1 / 12 * 100%); }
 .col-2 { width: (2 / 12 * 100%); }
@@ -305,16 +129,6 @@
 .mb-4 { margin-bottom: $spacer-4; }
 .ml-4 { margin-left: $spacer-4; }
 
-.mt-5 { margin-top: $spacer-5; }
-.mr-5 { margin-right: $spacer-5; }
-.mb-5 { margin-bottom: $spacer-5; }
-.ml-5 { margin-left: $spacer-5; }
-
-.mt-6 { margin-top: $spacer-6; }
-.mr-6 { margin-right: $spacer-6; }
-.mb-6 { margin-bottom: $spacer-6; }
-.ml-6 { margin-left: $spacer-6; }
-
 // Responsive margin
 @media (min-width: 52em) {
   .mx-lg-auto { margin-left: auto; margin-right: auto; }
@@ -358,26 +172,11 @@
 
 // Link styles for navigation
 .link-primary {
-  font-family: 'basier_circle_monoregular';
-  text-transform: uppercase;
+  font-weight: bold;
   text-decoration: none !important;
-  transition: all 300ms ease;
 
   &:hover {
-    background: -webkit-linear-gradient(45deg, red, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: $color-primary-link;
     text-decoration: none !important;
-    margin-left: 10px;
-    transition: all 300ms ease;
-  }
-}
-
-.link-main-page {
-  font-family: $header-font-family;
-  font-size: xx-large;
-  text-transform: none;
-  &:hover {
-    margin-left: 42px;
   }
 }

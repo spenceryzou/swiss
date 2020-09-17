@@ -21,7 +21,7 @@ gem "github-pages", group: :jekyll_plugins
 
 And add this line to your Jekyll site:
 
-```yaml 
+```yaml
 remote_theme: broccolini/swiss
 ```
 

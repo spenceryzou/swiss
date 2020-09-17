@@ -1,15 +1,12 @@
-<header class="px-2 clearfix">
-  <a href="#" id="scroll" style="display: none;"><span></span></a>
-  <a href="/" id="homelogo" class="logo" style="display: none; position: fixed; top: 1em; left: 1em;">
-    <img src="/uploads/bb.png"></a>
-  <div class="left sm-width-full py-1 mt-1 mt-lg-0" style="font-size: xx-large;">
-    <a class="ml-2 align-middle link-primary link-main-page" href="/">
-      Brice Bai
+<header class="border-bottom-thick px-2 clearfix">
+  <div class="left sm-width-full py-1 mt-1 mt-lg-0">
+    <a class="align-middle link-primary text-accent" href="{{ site.baseurl }}/">
+      {{ site.title }}
     </a>
   </div>
   <div class="right sm-width-full">
-    <ul class="list-reset mt-1 mb-2 mb-lg-1 py-1 mr-2" style="float: right;">
-
+    <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
+      {% for my_page in site.pages %}
         {% if my_page.title %}
         <li class="inline-block">
           <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">
@@ -17,23 +14,7 @@
           </a>
         </li>
         {% endif %}
-      
-      <li style="width: 80px;" class="inline-block">
-        <a class="align-middle link-primary header-link mr-2" href="http://bricebai.com/about">About</a>
-      </li>
-      
-      <li style="width: 80px;" class="inline-block">
-        <a class="align-middle link-primary header-link mr-2" href="/uploads/Brice Bai_Resume.pdf">Resume</a>
-      </li>
-      
-      <li style="width: 110px;" class="inline-block">
-        <a class="align-middle link-primary header-link mr-2" href="http://bricebai.com/#portfolio">Portfolio</a>
-      </li>
-      
-      <li style="width: 50px;" class="inline-block">
-        <a class="align-middle link-primary header-link mr-2" href="http://bricebai.com/etc">Etc.</a>
-      </li>
-      
+      {% endfor %}
     </ul>
   </div>
 </header>

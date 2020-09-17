@@ -1,23 +1,21 @@
 ---
-layout: about_layout
+layout: page
 title: About
-permalink: "/about"
-
+permalink: /about/
 ---
-I'm an undergrad at Yale University ('22) studying Computing and the Arts, a joint computer science and art major. This summer, I will be joining Amazon as a UX/UI Design Intern.
 
-I’ve always loved exploring how to create meaningful experiences, whether it be through interactive storytelling or product development. This combined with my background in computer science and art has led me to become passionate about product, user experience, and design.
+Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
 
-When I'm not designing, coding, or serving as VP of [UXSociety at Yale](https://uxsocietyyale.org/) you can find me dancing to kpop with Yale Movement, doodling cartoons, and penny boarding down the street.
+### Features:
+* Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
+* Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
+* Supports a wide range of HTML elements and markdown.
+* Flexible styles that can be reused for customization without adding additional CSS.
+* Simple styling for code snippets (if you want something with syntax highlighting, checkout ....)
+* Dynamically generated navigation links. See docs below for adding pages with specific post category for-loops.
 
-Let’s get in touch if you have a project or collaboration in mind. :)
+## Themes
 
- 
-<p align="center">
-<img src="http://bricebai.com/uploads/BRICE.JPG" alt="profilepic" width="500px"> 
-</p>
- 
- 
- 
+## Browser Support
 
-brice.bai@yale.edu / [LinkedIn](https://www.linkedin.com/in/bricebai/)
+## Installation

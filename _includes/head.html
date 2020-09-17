@@ -1,17 +1,7 @@
 <head>
-  {% include analytics.html %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
-  <link href="/uploads/basier_stylesheet.css" rel="stylesheet">
-  <link href="/uploads/univers_stylesheet.css" rel="stylesheet">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="/uploads/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/uploads/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/uploads/favicon-16x16.png">
-  <link rel="manifest" href="/uploads/site.webmanifest">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -23,81 +13,5 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <style> 
-    #scroll {
-        position:fixed;
-        right:30px;
-        bottom:30px;
-        cursor:pointer;
-        width:50px;
-        height:50px;
-        background-color:#ffffff;
-        text-indent:-9999px;
-        display:none;
-        -webkit-border-radius:60px;
-        -moz-border-radius:60px;
-        border-radius:60px
-        transition: all 300ms ease;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-    }
-    #scroll span {
-        position:absolute;
-        top:50%;
-        left:50%;
-        margin-left:-8px;
-        margin-top:-12px;
-        height:0;
-        width:0;
-        border:8px solid transparent;
-        border-bottom-color: gray;
-        transition: all 300ms ease;
-    }
-
-    #scroll:hover {
-        opacity:1;filter:"alpha(opacity=100)";
-        -ms-filter:"alpha(opacity=100)";
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
-        transform: scaleX(1.05) scaleY(1.05);
-        transition: all 300ms ease;
-    }
-  </style>
-  
-<!--   source: https://codepen.io/desirecode/pen/MJPJqV -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){ 
-        $(window).scroll(function(){ 
-            if ($(this).scrollTop() > 200) { 
-                $('#scroll').fadeIn(); 
-                $('#homelogo').fadeIn();
-            } else { 
-                $('#scroll').fadeOut();
-                $('#homelogo').fadeOut();
-            } 
-            if ($(this).scrollTop() > 900) { 
-                $("#toggle").click(function(){
-                  var $this = $(this);
-                  if($this.data('clicked')) {
-                      $('#menu').fadeToggle();
-                  }
-                });
-                $('#toggle').fadeIn();
-            } else { 
-                $('#menu').fadeOut();
-                $('#toggle').fadeOut();
-            } 
-        }); 
-        $('#scroll').click(function(){ 
-            $("html, body").animate({ scrollTop: 0 }, 800); 
-            return false; 
-        }); 
-    });
-    
-    function showhide(id) {
-       	var e = document.getElementById(id);
-       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-     }
-    
-  </script>
 </head>

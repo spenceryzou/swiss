@@ -2,10 +2,6 @@
   * Reset some basic elements
 */
 
-html {
-  scroll-behavior: smooth;
-}
-
 * {
  box-sizing: border-box !important;
  margin: 0; }
@@ -34,8 +30,7 @@ dl, dd, ol, ul, figure {
 body {
     font-family: $body-font-family;
     font-size: $body-font-size;
-    font-weight: 300;
-    line-height: 1.8;
+    line-height: 1.5;
     color: $color-body-text;
     background-color: #fff;
 }
@@ -45,61 +40,23 @@ p {
   margin-bottom: 0.5em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 1em;
-  margin-bottom: 1em;
-}
-h4, h5, h6 {
-  margin-top: 0.25em;
   margin-bottom: 0.25em;
 }
 
-h1, .h1 { font-size: $h1-size; font-family: $header-font-family; }
-h2, .h2 { font-size: $h2-size; font-family: $header-font-family; }
-h3, .h3 { font-size: $h3-size; font-family: $header-font-family; }
-h4, .h4 { font-size: $h4-size; font-family: $header-font-family; }
-h5, .h5 { font-size: $h5-size; text-transform: uppercase; letter-spacing: 0.02em; font-family: "basier_circle_monoregular";}
-h6, .h6 { font-size: $h6-size; text-transform: uppercase; letter-spacing: 0.02em; font-family: "basier_circle_monoregular";}
+h1, .h1 { font-size: $h1-size; }
+h2, .h2 { font-size: $h2-size; }
+h3, .h3 { font-size: $h3-size; }
+h4, .h4 { font-size: $h4-size; }
+h5, .h5 { font-size: $h5-size; }
+h6, .h6 { font-size: $h6-size; text-transform: uppercase; letter-spacing: 0.02em; }
 
 a {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-color: black;
-}
-
-a:hover {
   text-decoration: none;
 }
 
-button {
- background-color: inherit;
- border-radius: 12px;
- padding: 14px 28px;
- border: none;
- transition-duration: 0.4s;
- box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-button:hover {
- background-color: inherit;
- border: none;
- background-image: -webkit-linear-gradient(45deg, rgba(255,0,0,1), rgba(0,0,255,1));
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
- transform: scaleX(1.05) scaleY(1.05); 
- transition: transform 300ms ease 0s;
- box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
-}
-
-img {
- align-self: center;
-}
-
-iframe {
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
+a:hover {
+  text-decoration: underline;
 }
